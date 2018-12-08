@@ -1,0 +1,133 @@
+//feito por Joice :P
+
+Se alguém rodar, vai precisar colocar baixar umas imagens e colocar no caminho ;)
+
+<html lang="pt-br">
+	<head> <meta charset="utf-8">
+	<link rel='icon' type='image/jpg' href="icone.png">
+		<title> Processadores </title>
+		
+		
+	</head>
+	
+
+	<body>
+	<table borde ="0" align="center" width="100%">
+		<thead>
+		<tr>
+			<td colspan="6" bgcolor="#C0C0C0" align = "center"> 
+			<font color = "Black" face = "consolas" size = "6" align="center"> 
+			 <b> Processadores </b> 
+			</font></td></tr>
+			</thead>
+			</table>
+			
+		
+	<table borde ="0" align="center" width="80%">
+		<thead>
+			<tr>
+			<th bgcolor ="white" align = "left" > <font color = "black" face = "consolas" size = "4"> <b>
+			Processador <br /> </b> </th>
+			
+			<th bgcolor ="white" align = "left" > <font color = "black" face = "consolas" size = "4"> <b>
+			Velocidade <br />(MHz) </b> </th>
+
+			<th bgcolor ="white" align = "left" > <font color = "black" face = "consolas" size = "4"> <b>
+			Preço de <br />lançamento* </b> </th>
+
+			<th bgcolor ="white" align = "left" > <font color = "black" face = "consolas" size = "4"> <b>
+			Data de <br />Lançamento</b> </th>
+
+			<th bgcolor ="white" align = "left" > <font color = "black" face = "consolas" size = "4"> <b>
+			Preços <br /></b> </th>
+
+			<th bgcolor ="white" align = "left" > <font color = "black" face = "consolas" size = "4"> <b>
+			Queda % <br /></b> </th>
+			</tr>
+			</thead>
+
+			
+			
+			<tr>
+			<td> <br />AMD K-6 </td>
+			<td> <br />200 </td>
+			<td> <br />315 </td>
+			<td> <br />Abril/97 </td>
+			<td> <br />107 </td>
+			<td> <br />66 </td>
+			</tr>
+			
+			<tr>
+			<td> AMD K-6 </td>
+			<td> 233</td>
+			<td> 437 </td>
+			<td> Maio/97 </td>
+			<td> 284 </td>
+			<td> 35 </td>
+			</tr>
+
+			<tr>
+			<td> Cyrix 6x86 </td>
+			<td> 200</td>
+			<td> 240 </td>
+			<td> Maio/97 </td>
+			<td> 188 </td>
+			<td> 22 </td>
+			</tr>
+
+			<tr>
+			<td> Cyrix 6x86 </td>
+			<td> 233</td>
+			<td> 320 </td>
+			<td> Maio/97 </td>
+			<td> 290 </td>
+			<td> 9 </td>
+			</tr>
+
+			<tr>
+			<td> Intel Pentium II </td>
+			<td> 233</td>
+			<td> 636 </td>
+			<td> Maio/97 </td>
+			<td> 530 </td>
+			<td> 17 </td>
+			</tr>
+
+			<tr>
+			<td> Intel Pentium II </td>
+			<td> 266</td>
+			<td> 775 </td>
+			<td> Maio/97 </td>
+			<td> 699 </td>
+			<td> 10 </td>
+			</tr>
+			
+			</table>
+
+			<table borde ="0" align="center" width="100%">
+		<thead>
+			<tfoot>
+			<tr>
+			<th colspan="6" bgcolor="#C0C0C0" align = "center"> 
+			<font color = "Black" face = "consolas" size = "6" align="center"> 
+			<b> &nbsp; </b>
+			</font></th></tr> </tfoot>
+			</thead>
+		</table>
+		
+		<table borde ="0" align="center" width="80%">
+		<tr>    
+				
+		
+				<td align="center" width="40%"> <img border="0" src="imagem_aula_5/amd.jpg" width="200" height="200"></td>
+			
+				<td  align="center" width="40%"> <img border="0" src="imagem_aula_5/cyrix.jpg" width="200" height="200"> </i> </td>
+				
+				<td  align="left" width="40%"> <img border="0" src="imagem_aula_5/intel_Pentium_II.jpg" width="300" height="200"> </td> 
+			
+				<td> <font color="white"> ------------------</font> </td>
+			</tr>
+		</table>
+	
+	</body>
+</html>
