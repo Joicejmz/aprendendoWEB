@@ -1,0 +1,311 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> XPTO - Ferramentas</title>
+      <link rel="icon" type="imagens/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="stylesheet" type="text/css" href="formatacaorodecab.css">
+        <script language="Javascript">
+        /* início da função "checa" - ela verifica os campos*/
+        function checar(cadastro){
+        
+        //verifica se tem algo no campo nick
+        if(cadastro.nick.value==""){
+          alert("Digite seu nickname");
+          cadastro.nick.focus();
+          return (false);
+          }
+          
+       //verifica o campo do e-mail
+       if(cadastro.email.value==""){
+        alert("Digite seu e-mail");
+        cadastro.email.focus();
+        return (false);
+        }
+        
+        //para verificar se tem @ no campo e-mail
+        if(cadastro.email.value.indexOf("@",0)== -1){
+          alert("E-mail inválido. Siga o formato: nome@provedor.com");
+          cadastro.email.focus();
+          return (false);
+        }
+        
+        //checa o campo senha
+        if(cadastro.senha.value==""){
+          alert("Digite uma senha");
+          return (false);
+          }
+          
+        //verifica se tem alguma coisa no campo confirmar senha
+        if(cadastro.senha2.value == cadastro.senha.value){
+        alert("Senha incorreta");
+        return (false);
+        }
+        
+        //Verifica se tem algo no campo cidade
+         if(cadastro.cidade.value == ""){
+             alert("Cidade Não encontrada");
+             return (false);
+         }
+     }
+
+    </script>
+      <style>
+	 #conteudo{
+	 color:black;
+	 background:SkyBlue;
+	 font-size:18pt;
+	 font-family:Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+	 text-align:left;
+	 padding-top:15px;
+     padding-bottom:15px;
+   
+	 }
+
+     #conteudo, td {
+     border:none;
+     
+     }
+
+     #conteudo table{
+     margin-top:150px;
+     margin-bottom:50px;
+     border-style:double;
+     border-width:10px;
+     border-radius:50px;
+     }
+
+     
+
+	 #conteudo table form input, #conteudo table form button{
+	 height:35px;
+	 width:240px;
+	 margin-top:10px;
+	 }
+	 
+	 #conteudo table form button{
+	 width:245px;
+	 }
+	 
+	 
+	 
+	 #conteudo table form button:hover{
+	 background:black;
+	 color:white;
+	 }
+
+     #parceiros img{
+     margin-top:60px;
+     margin-bottom:30px;
+     }
+
+    p{
+    padding-right:800px;
+    font-family:Roman bold;
+    font-size:24pt;
+    color:black;
+    }
+
+
+     input.limpa{
+     color:red;
+     border:none;
+     height:20px;
+     width:100px;
+     }
+
+     input.cadastro{
+     color:red;
+     border:none;
+     height:20px;
+     width:100px;
+     }
+	 
+</style>  
+   </head>
+    <body>
+              <section id="conteudo">
+            <form onsubmit="return checar(this)"
+                  name="cadastro" action="#" method="post">
+
+                <div align="center">
+
+                    <table classs="tabela1" border="1" height="200px" width="450px" cellspacing="15" cellpadding="8">
+                        <caption> <h3><i>Venha fazer parte do nosso time   ;) </i> </h3> <br><br> </caption>
+                        <tr>
+                            <td>
+
+                                Nick:
+
+                            </td>
+                            <td>
+
+                                <input type="text" size="20" name="nick">
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                                E-mail:
+
+                            </td>
+                            <td>
+
+                                <input type="text" size="20" name="email">
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                                Senha:
+
+                            </td>
+                            <td>
+
+                                <input type="password" size="20" name="senha">
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                                Confirmar senha:
+
+                            </td>
+                            <td>
+
+                                <input type="password" size="20" name="senha2">
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                                Idade:
+
+                            </td>
+                            <td>
+
+                                <input type="password" size="20" name="idade">
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                                Sexo:
+
+                            </td>
+                            <td>
+                                <select name="sexo" size="1">
+                                    <option selected value="selecione">selecione</option>
+                                    <option value="M">Masculino</option>
+                                    <option value="F">Feminino</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                                Cidade:
+
+                            </td>
+                            <td>
+
+                                <input type="text" size="20" name="cidade">
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                &nbsp;
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="reset" class="limpa" value="Limpar">
+                                <input type="submit" class="cadastro" value="cadastrar">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </form>
+        </section>
+
+        <div id="parceiros" align="center">
+            <p><i>Nossos Parceiros</i></p>
+            <img src="imagens/parceiros02.png">
+
+
+
+         </div>
+
+          <section id="rodape">
+            <div id="linha3">
+              <footer id="footer">
+                <nav id="footer_nav">
+                  <h2 class="footer_title">Navegação</h2>
+                  <ul>
+                    <li><a href="siteoficial.html" title="Inicio" >Inicio</a></li>
+                    <li><a href="cadastrar.html" title="Cadastrar">Cadastrar</a></li>
+                      <li><a href="vendasdecaboseletricos.html" title="Ferramentas">Ferramentas</a></li>
+                  </ul>
+                </nav>
+
+                <form id="form_nav" action="#" method="post">
+
+                  <h2 class="footer_title">contato</h2>
+                    <label>Nome:<span class="required"></span>
+                    <input type="text" name="nome" id="nome"></label>
+
+                    <label>E-mail:<span class="required"></span>
+                    <input type="text" name="email" id="email" ></label>
+
+                    <textarea name="mensagem" id="mensagem" placeholder="Deixe sua sugestão..."></textarea>
+                  <p>
+                    <input type="submit" value="Enviar" class="button">
+                    <input type="submit" value="Cancelar" class="button">
+                  </p>
+                </form>
+              </footer>
+
+                <table class="redesocial" border="0" height="20%" width="20%" >
+
+                    <tr>
+
+                  &nbsp;<a href="https://pt-br.facebook.com/"  target="_blank" target="_blank"><img src="imagens/face.jpg" height="30px" width="30px" ></a>
+                    </tr>
+
+                <tr>
+                  &nbsp;&nbsp;<a href="https://www.instagram.com/?hl=pt-br" target="_blank"><img src="imagens/insta.png" height="35px" width="35px"></a>
+                    </tr>
+
+                <tr>
+                  &nbsp;&nbsp;&nbsp;<a href="https://twitter.com/?lang=pt-br" target="_blank"><img src="imagens/twi.png"  height="35px" width="35px"></a>
+                    </tr>
+
+                <tr>
+                  <td>
+                    <div id="localizacao">
+
+                                     <a href="https://goo.gl/maps/YyF4iUwihu12" target="_blank"><img src="imagens/maps.jpg" width="350" height="200" frameborder="0" ></a>
+
+                      </div>
+                  </td>
+                </tr>
+
+                </table>
+
+              <div id="copyright">
+              <p>copyright &copy; 2018 - Todos os direitos Reservados -<a href="https://www.terradonunca.com.br">https://www.terradonunca.com.br
+              </a>
+              </p>
+            </div>
+            </div>
+        </section>
+    </body>
+</html>
