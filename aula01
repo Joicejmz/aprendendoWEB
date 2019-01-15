@@ -1,0 +1,25 @@
+<html> <!-- comando pra indicar que será feito código de html -->
+  <head> <!-- indica que é o cabeçalho. É uma parte NÃO VISÍVEL DO CORPO  DA PÁGINA-->
+    <title> <!-- mesmo estando dentro da tag head, o título é visível -->
+    Aula 1 <!-- vai aparecer na aba do browser -->
+    </title>
+  </head>
+  <body> <!-- é a parte visível do corpo da página -->
+    <h1> AULA 1 </h1> <!-- os H's fazem a quebra de linha -->
+    <h3>Aprendendo a programar em web desde o básico :p</h3> 
+		<h2>Módulo HTML</h2>
+			<p>Aprendi conceitos de tag, conceitos de identação, parágrafo e o "liga/desliga" dos comandos das tags.</p>
+			
+			<p>Também vi formatações básicas do H, que vão do h1 ao h6.
+			Os H's funcionam como hierarquia, sendo o h1 o maior de todos</br> <!-- o comando br não precisa "abrir e fechar" -->
+			e tamanho da fonte vai diminuindo em ordem decrescente. </p> 
+		
+		<h1> teste h1 </h1>
+		<h2> teste h2 </h2>
+		<h3> teste h3 </h3>
+		<h4> teste h4 </h4>
+		<h5> teste h5 </h5>
+		<h6> teste h6 </h6>
+  </body>
+</html>
+<!-- essa / indica o fechamento da tag. -->
