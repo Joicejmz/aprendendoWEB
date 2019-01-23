@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <title>Aula 02</title>
+  </head>
+  <body>
+    <h1>Aula 2 - listas</h1>
+    <ul> <!-- lista não ordenada -->
+      <li>Vermelho    <!-- "list-item" não tem necessidade de fechar a tag-->
+      <li>Azul
+      <li>Amarelo
+      <li>Preto
+      <li>Branco
+    </ul>
+    
+    <ol> <!-- lista ordenada-->
+      <li>Vermelho
+      <li>Azul
+      <li>Amarelo
+      <li>Preto
+      <li>Branco
+    </ol>
+    
+    <!-- parâmetros servem para mudar a configuração origunal. Tipos para lista não ordenada -->
+    <ul type="square">
+      <li>Flores
+      <li>Frutos
+    </ul>
+    
+    <ul type="circle">
+      <li>Esmalte cintilante
+      <li>Esmalte cremoso
+    </ul>
+    
+    <ul type="disc">  <!-- esse formato é o pré-configurado. Se não usar nenhum parâmentro, ele que aparece-->
+      <li>Shampoo
+      <li>Condicionador
+    </ul>
+    
+    <!-- parâmetros para lista ordenada-->
+    <ol type="1">
+      <li>Adriano
+      <li>Brenda
+      <li>Carla
+    </ol>
+    
+    <ol type="A">
+      <li>Tomate
+      <li>Cebola
+      <li>Salsinha
+    </ol>
+    
+    <ol type="a">
+      <li>Vestido
+      <li>Saia
+      <li>Blusinha
+    </ol>
+    
+    <ol type="I">
+      <li>Blush
+      <li>Sombra
+      <li>Rímel
+    </ol>
+    
+    <ol type="i">
+      <li>Loira
+      <li>Morena
+      <li>Ruiva
+    </ol>
+    
+    <!-- é possível abrir uma lista dentro de outra lista e abrir sub-listas o quanto necessitar e nesse caso, é possível fazer: -->
+    <!-- quando fazer uma lista dentro da outra pode usar ou não parâmetros a vontade. Pode repetir o parâmetro se quiser-->
+    
+    <!-- lista ordenada dentro de lista ordenada-->
+    <ol type="A">
+      <li>Tons de rosa:
+        <ol type="i">
+          <li>Claros
+            <ol type="1">
+              <li>claro-bebê
+              <li>claro-pastel
+            </ol>
+          <li>Médios
+          <li>Escuros
+        </ol>
+      <li>Vermelho
+      <li>Roxo
+    </ol>
+    
+    <!-- lista ordenada dentro de lista não ordenada-->
+    <ul type="circle">
+      <li>Angiospermas possuem:
+          <ol type="A">
+            <li>Flores
+            <li>Frutos
+            <li>Feixe vascular (presente nos caules e troncos)
+            <li>Folhas
+            <li>Raízes
+          </ol>
+        <li>Briófitas possuem:
+          <ol type="type A">
+            <li>Folhas simplificadas
+            <li>raízes
+          </ol>
+    </ul>
+    
+    <!-- lista não ordenada dentro de lista não ordenada-->
+    <ul>
+    </ul>
+    
+    <!-- lista não ordenada dentro de lista ordenada-->
+  </body>
+</html>
