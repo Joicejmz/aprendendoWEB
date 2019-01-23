@@ -104,9 +104,39 @@
     </ul>
     
     <!-- lista não ordenada dentro de lista não ordenada-->
-    <ul>
+    <ul type="square">
+      <li>Eu
+        <ul type="disc">
+          <li> doida
+          <li>baixinha
+          <li>amo café
+        </ul>
+       <li>Tu
+        <ul type="disc">
+          <li> quieto
+          <li>branquelo
+          <li>ama café também
+        </ul>
+      <li>Ele/ela
+        <ul type="disc">
+          <li> falantes
+          <li>alegres
+          <li>amam café também uhuuu
+        </ul>
     </ul>
     
     <!-- lista não ordenada dentro de lista ordenada-->
+    <ol>
+      <li> Chá
+      <li> Café
+        <ul type="circle">
+          <li> Cafeinado
+          <li> Descafeinado
+        </ul>
+      <li> Suco
+    </ol>
+  
   </body>
+  
+  
 </html>
